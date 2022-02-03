@@ -1,6 +1,7 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
+    // tslint:disable-next-line: component-selector
     selector: 'events-list',
     template: `
     <div>
@@ -25,5 +26,5 @@ export class EventsListComponent {
             city: 'London',
             country: 'England'
         }
-    }
+    };
 }

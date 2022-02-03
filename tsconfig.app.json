@@ -2,7 +2,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "target": "Es5",
     "outDir": "./out-tsc/app",
+    "strict": true,
     "types": []
   },
   "files": [
