@@ -17,14 +17,17 @@ import { Component, Input } from '@angular/core';
             </div>
         </div>
         <div class="col-md-2">
-        <img src="/assets/images/basic-shield.png" />
+        <img class="image" src="/assets/images/basic-shield.png" />
         </div>
         </div>
     </div>
     `,
     styles: [`
     .pad-left { margin-left: 10px; }
-    .well div { color: red; }
+    .pad-right { margin-right: 10px; }
+    .well div { color: #bbb; }
+    .row { min-height: 210 px; }
+    .image { height: 90px; width: 90px; }
     `]
 })
 export class EventThumbnailComponent {
